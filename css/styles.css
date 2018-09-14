@@ -1,0 +1,17 @@
+/* Header color 2D3945 */
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+}
+h1 {
+  background-color: #2d3945;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
