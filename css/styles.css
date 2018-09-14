@@ -7,11 +7,38 @@
 }
 :root {
   font-family: "Merriweather", "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.7);
 }
 h1 {
   background-color: #2d3945;
   color: white;
   text-align: center;
   text-transform: uppercase;
+  padding: 20px 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: solid 4px #2d3945;
+}
+h2 {
+  font-size: 1.3em;
+}
+fieldset {
+  border: 0;
+}
+legend {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#signup-form {
+  border-top: solid 2px #2d3945;
+  margin-top: 2px;
   padding: 20px 0;
 }
