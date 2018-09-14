@@ -20,9 +20,9 @@
             <fieldset>
                 <legend>Contact Information</legend>
                 <label for="name">Full Name</label>
-                <input type="text" id='name' name='name' required>
+                <input type="text" id='name' name='name' placeholder='required' required>
                 <label for="email">Email Address</label>
-                <input type="email" id='email' name='email' required>
+                <input type="email" id='email' name='email' placeholder='required' required>
                 <label for="number">Phone Number</label>
                 <input type="tel" id='number' name='number'>
                 <label for="city">City</label>
@@ -87,13 +87,17 @@
             <fieldset>
                 <legend>Newsletter</legend>
                 <label>Select the newsletters you would like to reieve</label><br>
-                <input type="checkbox" name='newsletter' id='html-news'><label for='html-news'>HTML News</label><br>
-                <input type="checkbox" name='newsletter' id='css-news'><label for='css-news'>CSS News</label><br>
-                <input type="checkbox" name='newsletter' id='javascript-news'><label for='javascript-news'>Javascript News</label><br>
+                <input type="checkbox" name='newsletter' id='html-news' value='html news'><label for='html-news'>HTML News</label><br>
+                <input type="checkbox" name='newsletter' id='css-news' value='css news'><label for='css-news'>CSS News</label><br>
+                <input type="checkbox" name='newsletter' id='javascript-news' value='javascript news'><label for='javascript-news'>Javascript
+                    News
+                </label><br>
 
                 <label>Newsletter format</label><br>
-                <input type="radio" name="news-format" id="html-format"><label for="html-format">HTML</label><br>
-                <input type="radio" name="news-format" id="plain-format"><label for="plain-format">Plain text</label><br>
+                <input type="radio" name="news-format" id="html-format" value='html format'><label for="html-format">HTML</label><br>
+                <input type="radio" name="news-format" id="plain-format" value='plain text format'><label for="plain-format">Plain
+                    text
+                </label><br>
 
                 <label for="other-topics">Other topics you'd like to hear about</label>
                 <textarea name="other-topics" id="other-topics" cols="30" rows="10"></textarea>
