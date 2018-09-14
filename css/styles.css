@@ -42,3 +42,13 @@ legend {
   margin-top: 2px;
   padding: 20px 0;
 }
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 100%;
+}
+input::placeholder {
+  text-align: right;
+}
