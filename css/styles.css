@@ -30,8 +30,20 @@ header {
 h2 {
   font-size: 1.3em;
 }
+#contact {
+  border-bottom: solid 2px #2d3945;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#newsletter {
+  margin-top: 20px;
+}
 fieldset {
   border: 0;
+}
+fieldset label {
+  margin-top: 10px;
 }
 legend {
   font-weight: bold;
@@ -42,13 +54,24 @@ legend {
   margin-top: 2px;
   padding: 20px 0;
 }
-fieldset {
-  display: flex;
-  flex-direction: column;
-}
 input {
   width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #eff0f1;
+  border-radius: 2px;
+  border: none;
 }
 input::placeholder {
   text-align: right;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.5);
+}
+#zip {
+  width: 50%;
+}
+.input-option input,
+.input-option label {
+  display: inline;
+  border: solid 1px red;
 }
