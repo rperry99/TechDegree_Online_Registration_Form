@@ -55,7 +55,8 @@ legend {
   padding: 20px 0;
 }
 #contact input,
-select {
+select,
+#newsletter textarea {
   width: 100%;
   margin-top: 5px;
   padding: 10px;
@@ -74,5 +75,8 @@ input::placeholder {
 #newsletter {
   display: flex;
   flex-direction: column;  
+}
+#newsletter textarea {
+  padding: 0;
 }
 
