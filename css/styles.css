@@ -54,8 +54,7 @@ legend {
   margin-top: 2px;
   padding: 20px 0;
 }
-input:not(input[type='checkbox']),
-input:not(input[type='radio']),
+#contact input,
 select {
   width: 100%;
   margin-top: 5px;
@@ -69,11 +68,11 @@ input::placeholder {
   font-style: italic;
   color: rgba(0, 0, 0, 0.5);
 }
-#zip {
+#contact #zip {
   width: 50%;
 }
-.input-option input,
-.input-option label {
-  display: inline;
-  border: solid 1px red;
+#newsletter {
+  display: flex;
+  flex-direction: column;  
 }
+
