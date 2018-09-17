@@ -69,6 +69,7 @@ select,
   background-color: #eff0f1;
   border-radius: 2px;
   border: none;
+  font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 input::placeholder {
   text-align: right;
@@ -115,6 +116,13 @@ footer {
   font-size: 0.80em;
   font-style: italic;
   color: rgba(0, 0, 0, 0.5);
+}
+#contact .contact-info input:focus,
+#contact .contact-info select:focus,
+#newsletter textarea:focus {
+  outline: transparent;
+  color: white;
+  background-color: #2d3945;
 }
 @media (min-width: 768px){
   .container {
