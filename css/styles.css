@@ -24,11 +24,12 @@ h1 {
 }
 header {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px 0 40px 0;
   border-bottom: solid 4px #2d3945;
 }
 h2 {
   font-size: 1.3em;
+  margin-bottom: 10px;
 }
 #contact {
   border-bottom: solid 2px #2d3945;
