@@ -24,8 +24,9 @@ h1 {
 }
 header {
   text-align: center;
-  padding: 20px 0 40px 0;
+  padding: 20px 10px 40px 10px;
   border-bottom: solid 4px #2d3945;
+  background-color: rgba(0,0,0,0.05);
 }
 h2 {
   font-size: 1.3em;
@@ -123,6 +124,7 @@ footer {
   outline: transparent;
   color: white;
   background-color: #2d3945;
+  transition: all .5s;
 }
 @media (min-width: 768px){
   .container {
