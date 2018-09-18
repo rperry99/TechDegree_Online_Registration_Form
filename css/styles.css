@@ -123,21 +123,21 @@ footer {
 #contact .contact-info select:focus,
 #newsletter textarea:focus {
   outline: transparent;
-  color: white;
+  color: #fff;
   background-color: #2d3945;
   transition: all 0.5s;
 }
 input:focus::-webkit-input-placeholder {
-  color: red;
+  color: #fff;
 }
 input:focus:-moz-placeholder {
-  color: red;
+  color: #fff;
 }
 input:focus::-moz-placeholder {
-  color: red;
+  color: #fff;
 }
 input:focus:-ms-input-placeholder {
-  color: red;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
