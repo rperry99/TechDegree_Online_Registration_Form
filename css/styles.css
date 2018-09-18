@@ -26,7 +26,7 @@ header {
   text-align: center;
   padding: 20px 10px 40px 10px;
   border-bottom: solid 4px #2d3945;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 h2 {
   font-size: 1.3em;
@@ -76,19 +76,20 @@ input::placeholder {
   text-align: right;
   font-style: italic;
   color: rgba(0, 0, 0, 0.5);
+  padding-right: 5px;
 }
 #contact #zip {
   width: 50%;
 }
 #newsletter {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 #newsletter label {
   line-height: 1.5em;
   margin-bottom: 10px;
 }
-#newsletter label:not(:first-child){
+#newsletter label:not(:first-child) {
   margin-top: 10px;
 }
 #newsletter textarea {
@@ -114,7 +115,7 @@ input::placeholder {
 footer {
   margin-top: 25px;
   text-align: center;
-  font-size: 0.80em;
+  font-size: 0.8em;
   font-style: italic;
   color: rgba(0, 0, 0, 0.5);
 }
@@ -124,9 +125,22 @@ footer {
   outline: transparent;
   color: white;
   background-color: #2d3945;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-@media (min-width: 768px){
+input:focus::-webkit-input-placeholder {
+  color: red;
+}
+input:focus:-moz-placeholder {
+  color: red;
+}
+input:focus::-moz-placeholder {
+  color: red;
+}
+input:focus:-ms-input-placeholder {
+  color: red;
+}
+
+@media (min-width: 768px) {
   .container {
     width: 45%;
     max-width: 1000px;
@@ -135,6 +149,4 @@ footer {
     display: grid;
     grid-template-columns: 1fr 3fr;
   }
-  
 }
-
